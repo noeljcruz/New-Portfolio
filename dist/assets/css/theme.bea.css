@@ -224,7 +224,8 @@ img {
 
 img,
 svg {
-	vertical-align: middle
+    vertical-align: middle;
+    align-content: center
 }
 
 svg {
@@ -2355,7 +2356,7 @@ textarea.form-control.is-invalid {
 	border-radius: 0;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     justify-content: center;
-    width: 160px;
+    width: 150px;
     margin: auto
 }
 
@@ -7992,7 +7993,7 @@ button.bg-black:hover {
 
 .pt-5,
 .py-5 {
-	padding-top: 3rem!important
+	padding-top: 0!important
 }
 
 .pr-5,
