@@ -17,3 +17,7 @@
 .txt-bold {
     font-weight: bold;
 }
+
+.txt-cen {
+    text-align: center;
+}
