@@ -71,9 +71,9 @@ body {
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.5;
-	color: #fff;
+	color: #0e0e0e;
 	text-align: left;
-	background-color: #0e0e0e
+	background-color: #fff
 }
 
 [tabindex="-1"]:focus {
@@ -470,7 +470,7 @@ hr {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	border: 0;
-	border-top: 1px solid rgba(14, 14, 14, .1)
+	border-top: 1px solid rgb(210, 159, 19);
 }
 
 .small,
@@ -6491,9 +6491,9 @@ button.bg-danger:hover {
 	background-color: #c80f17!important
 }
 
-.bg-light {
+/* .bg-light {
 	background-color: #f2f1f1!important
-}
+} */
 
 a.bg-light:focus,
 a.bg-light:hover,
@@ -6551,9 +6551,9 @@ button.bg-black:hover {
 	border-right: 1px solid #262626!important
 }
 
-.border-bottom {
+/* .border-bottom {
 	border-bottom: 1px solid #262626!important
-}
+} */
 
 .border-left {
 	border-left: 1px solid #262626!important
@@ -10447,7 +10447,7 @@ body {
 	}
 	.main-nav .nav-item+.nav-item:before {
 		content: "\2022";
-		color: #a6a6a6;
+		color: rgb(0, 38, 119);
 		padding-left: 1.25rem;
 		padding-right: 1.25rem
 	}
