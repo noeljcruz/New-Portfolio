@@ -182,7 +182,7 @@ a {
 
 a,
 a:hover {
-	text-decoration: none
+    text-decoration: none
 }
 
 a:hover {
@@ -2338,7 +2338,7 @@ textarea.form-control.is-invalid {
 }
 
 .btn {
-	display: inline-block;
+	display: flex;
 	font-weight: 400;
 	color: #fff;
 	text-align: center;
@@ -2348,12 +2348,15 @@ textarea.form-control.is-invalid {
 	-ms-user-select: none;
 	user-select: none;
 	background-color: transparent;
-	border: 2px solid transparent;
+	border: 1px solid transparent;
 	padding: .75rem 1.5rem;
 	font-size: .9rem;
 	line-height: 1.5;
 	border-radius: 0;
-	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    justify-content: center;
+    width: 160px;
+    margin: auto
 }
 
 @media (prefers-reduced-motion:reduce) {
@@ -3017,13 +3020,24 @@ fieldset:disabled a.btn {
 
 .btn-outline-dark {
 	color: #262626;
-	border-color: #262626
+	border-color: rgb(0, 38, 119)
+}
+
+.btn-outline-gold {
+	color: #262626;
+	border-color: rgb(0, 38, 119)
 }
 
 .btn-outline-dark:hover {
 	color: #fff;
 	background-color: #262626;
 	border-color: #262626
+}
+
+.btn-outline-gold:hover {
+	color: #fff;
+	background-color: rgb(210, 159, 19);
+	border-color: rgb(210, 159, 19)
 }
 
 .btn-outline-dark.focus,
@@ -10279,7 +10293,7 @@ a {
 .bg-light a,
 .bg-primary a,
 .bg-white a {
-	color: #0e0e0e
+	color: rgb(0, 38, 119)
 }
 
 p a {
@@ -10308,7 +10322,7 @@ p a:hover {
 
 .btn {
 	letter-spacing: 2px;
-	text-transform: uppercase
+	/* text-transform: uppercase */
 }
 
 .avatar {
