@@ -528,7 +528,7 @@ mark {
 .img-thumbnail {
 	padding: .75rem;
 	background-color: transparent;
-	border: 1px solid #262626
+	border: 1px solid rgb(0, 38, 119)
 }
 
 .figure {
@@ -10351,7 +10351,7 @@ p a:hover {
 }
 
 .img-overlay .img-hover {
-	background-color: rgba(0, 0, 0, .7);
+	background-color: rgb(0, 38, 119, 0.7);
 	position: absolute;
 	top: 0;
 	left: 0;
