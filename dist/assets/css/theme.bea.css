@@ -68,7 +68,7 @@ section {
 body {
 	margin: 0;
 	font-family: Fira Sans, sans-serif;
-	font-size: 1rem;
+	font-size: 1.1rem;
 	font-weight: 400;
 	line-height: 1.5;
 	color: #0e0e0e;
@@ -2356,7 +2356,7 @@ textarea.form-control.is-invalid {
 	border-radius: 0;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     justify-content: center;
-    width: 150px;
+    width: 170px;
     margin: auto
 }
 
@@ -3029,6 +3029,11 @@ fieldset:disabled a.btn {
 	border-color: rgb(0, 38, 119)
 }
 
+.btn-outline-navy {
+    color: #fff;
+	border-color: rgb(210, 159, 19) 
+}
+
 .btn-outline-dark:hover {
 	color: #fff;
 	background-color: #262626;
@@ -3036,6 +3041,12 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-gold:hover {
+	color: #fff;
+	background-color: rgb(210, 159, 19);
+	border-color: rgb(210, 159, 19)
+}
+
+.btn-outline-navy:hover {
 	color: #fff;
 	background-color: rgb(210, 159, 19);
 	border-color: rgb(210, 159, 19)
@@ -10197,7 +10208,7 @@ h6 {
 
 @media (min-width:768px) {
 	.lead {
-		font-size: 1.5rem
+		font-size: 1.2rem
 	}
 }
 
