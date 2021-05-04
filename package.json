@@ -22,8 +22,10 @@
         "bl": "^4.0.3",
         "bootstrap": "^4.3.1",
         "colcade": "^0.2.0",
+        "is-svg": "^4.3.1",
         "jquery": "^3.5.0",
         "popper.js": "^1.15.0",
+        "socket.io": "^4.0.1",
         "zoom-vanilla.js": "^2.0.6"
     },
     "browserslist": [
